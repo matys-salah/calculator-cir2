@@ -1,0 +1,22 @@
+.top { grid-area: top; }
+.item5 { grid-area: cell; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'top top top top top'
+    'cell cell cell cell cell'
+    'cell cell cell cell cell'
+    'cell cell cell cell cell';
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > button,  .grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  border: none;
+}
