@@ -28,7 +28,7 @@ function getResult() {
         if (operator == '*') {result *= v1}
     }
     reset();
-    document.getElementById("top").innerText = result;
+    document.getElementById("top").innerText = result
 }
 
 function reset() {
